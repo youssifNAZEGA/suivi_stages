@@ -9,4 +9,3 @@ class EntrepriseAdmin(admin.ModelAdmin):
 
     search_fields = ["nom","secteur","ville"]
 
-
