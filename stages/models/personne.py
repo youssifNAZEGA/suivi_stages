@@ -10,7 +10,6 @@ class Personne(models.Model):
     date_naissance = models.DateField()
     sexe = models.CharField(max_length=1)
     email = models.EmailField()
-    telephone = models.IntegerField()
 
     class Meta:
         abstract = True

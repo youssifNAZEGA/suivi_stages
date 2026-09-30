@@ -10,4 +10,4 @@ wheels/
 .venv
 
 #La base de donnée
-db.sqlite3
+./db.sqlite3
